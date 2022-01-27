@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "node-koa2",
+      "cwd": "./",
+      "script": "src/main.ts",
+      "args": "",
+      "log_file": "./logs/app.log",
+      "out_file": "./logs/output.log",
+      "error_file": "./logs/error.log",
+      "pid_file": "./logs/pid.pid",
+      "watch": ["src"],
+      "interpreter": "node_modules/.bin/ts-node",
+      "interpreter_args": "-P ./tsconfig.json"
+    }
+  ]
+}
